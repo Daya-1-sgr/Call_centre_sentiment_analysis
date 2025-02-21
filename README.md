@@ -141,6 +141,27 @@ In contrast, “Neutral” and “Positive” sentiments tend to have shorter ca
 
 ![Call Duration by Sentiment Boxplot](images/call_duration_by_sentiment.png)
 
+## Channel and Response Time
+
+### CSAT Score by Channel
+
+The boxplot shows that CSAT scores vary across different communication channels. The “Call-Centre” channel has the widest range of scores, including the lowest scores, indicating potential dissatisfaction.
+
+In contrast, the “Web” channel has more consistent and higher CSAT scores, suggesting better experiences through this channel.
+
+![CSAT Score by Channel Boxplot](images/csat_score_by_channel.png)
+
+---
+
+### CSAT Score by Response Time
+
+The CSAT scores are generally higher for interactions that occurred “Within SLA,” compared to those classified as “Below SLA” or “Escalated.”
+
+This underscores the importance of timely responses in maintaining customer satisfaction.
+
+![CSAT Score by Response Time Boxplot](images/Avg_csat_by_response_time.png)
+
+
 
 
 
