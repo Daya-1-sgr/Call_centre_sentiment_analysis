@@ -90,7 +90,7 @@ The EDA will include:
 ## Distribution Analysis
 
 
-![Distribution of CSAT Scores](images/csat_distribution.png)
+![Distribution of CSAT Scores](images/Distribution_analysis.png)
 
 ## CSAT Score Distribution
 
@@ -122,6 +122,26 @@ The bar plot shows that “Negative” sentiment is the most frequent, followed 
 “Very Negative” and “Very Positive” sentiments are the least common.
 
 ![Sentiment Distribution Bar Plot](images/sentiment_distribution.png)
+
+## CSAT Score by Sentiment
+
+The boxplot illustrates a clear relationship between sentiment and CSAT scores.
+
+As expected, “Very Positive” sentiment corresponds with higher CSAT scores, while “Very Negative” correlates with the lowest scores.
+
+This trend reinforces the reliability of the sentiment analysis in reflecting customer satisfaction.
+
+![CSAT Score by Sentiment Boxplot](images/csat_score_by_sentiment.png)
+
+## Call Duration by Sentiment
+
+The boxplot for call duration reveals that calls associated with “Very Negative” sentiment tend to be longer, which could indicate more complex issues or dissatisfaction leading to prolonged conversations.
+
+In contrast, “Neutral” and “Positive” sentiments tend to have shorter call durations.
+
+![Call Duration by Sentiment Boxplot](images/call_duration_by_sentiment.png)
+
+
 
 
 
