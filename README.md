@@ -159,7 +159,116 @@ The CSAT scores are generally higher for interactions that occurred “Within SL
 
 This underscores the importance of timely responses in maintaining customer satisfaction.
 
-![CSAT Score by Response Time Boxplot](images/Avg_csat_by_response_time.png)
+![CSAT Score by Response Time Boxplot](images/CSAT_score_by_response.png)
+
+## Sentiment Distribution by Channel
+
+The count plot shows that negative sentiments are more frequent in the “Call-Centre” and “Chatbot” channels.
+
+This could indicate challenges with these channels that are leading to customer dissatisfaction.
+
+The “Web” channel, in contrast, has a higher proportion of positive sentiments.
+
+![Sentiment Distribution by Channel](images/sentiment_distribution_by_channel.png)
+---
+
+## Further Analysis
+
+### Correlation Analysis: Call Duration, Sentiment, and CSAT Scores
+
+Let’s quantify the relationships between call duration, sentiment, and CSAT scores. We’ll encode the sentiment variable numerically to perform correlation analysis.
+
+![Correlation Matrix](images/correlation.png)
+
+## CSAT Score and Sentiment Score
+
+The correlation between CSAT scores and sentiment scores is **0.88**, indicating a strong positive relationship. As sentiment improves (from "Very Negative" to "Very Positive"), the CSAT score tends to increase significantly.
+
+
+---
+
+## CSAT Score and Call Duration
+
+The correlation between CSAT scores and call duration is **-0.16**, indicating a weak negative relationship. This suggests that longer calls might slightly decrease customer satisfaction, but the effect is not strong.
+
+
+---
+
+## Sentiment Score and Call Duration
+
+The correlation between sentiment scores and call duration is **-0.16**, which is also a weak negative relationship. This implies that longer call durations may be associated with slightly more negative sentiments, though the effect is not pronounced.
+
+
+---
+
+## Patterns in Delayed Response Time
+
+### Average CSAT Score by Response Time
+
+This bar plot shows that the CSAT scores are significantly lower for calls with “Above SLA” response times compared to those “Within SLA”.
+
+![CSAT Score by Response Time Bar Plot](images/Avg_csat_by_response_time.png)
+
+## Average Sentiment Score by Response Time
+
+Similar to the CSAT scores, the sentiment scores are also lowest for “Above SLA” and slightly better for “Below SLA” compared to “Within SLA”.
+
+![Average Sentiment Score by Response Time](images/avg_sentiment_score_by_response_time.png)
+
+---
+
+## Average Call Duration by Response Time
+
+This plot reveals that calls with “Above SLA” response times have the longest durations, while those “Within SLA” have shorter durations, indicating more efficient handling.
+
+---
+
+## Time-Series Analysis of Sentiments and CSAT Scores
+
+### CSAT Score
+
+There is some variability in average CSAT scores over time, but no clear upward or downward trend. The scores fluctuate, suggesting that customer satisfaction might be influenced by specific events or issues rather than a consistent trend.
+
+![CSAT Score Time-Series Plot](images/time_series_analysis_of_csat_and_sentiment.png)
+
+---
+
+### Sentiment Score
+
+Similar to the CSAT score, the sentiment score also shows fluctuations over time. The sentiment trends closely mirror the CSAT score trends, which is expected given the strong correlation between these two variables.
+
+## Summary and Recommendations
+
+Based on the analyses, here are some actionable insights:
+
+1. **Focus on Reducing Call Duration**: Since longer calls are associated with negative sentiments and lower CSAT scores, it may be beneficial to identify the causes of prolonged calls and address them. This could involve better training for agents or optimizing call handling processes to make interactions more efficient.
+  
+2. **Improve Channels with Lower Satisfaction**: The “Call-Centre” and “Chatbot” channels have lower satisfaction levels. Investigating the issues specific to these channels (e.g., script limitations, response delays) could lead to significant improvements in customer experiences.
+
+3. **Prioritise SLA Compliance**: Ensuring that calls are handled “Within SLA” is crucial for maintaining customer satisfaction. Focusing on identifying and addressing the factors causing delays in response times could improve performance and customer perceptions.
+
+4. **Monitor Trends and Investigate Fluctuations**: Regular monitoring of CSAT and sentiment trends is essential to quickly identify periods of declining satisfaction. Investigating specific events or changes during these fluctuations can help pinpoint the root causes.
+
+---
+
+## Conclusion
+
+The analysis of the call centre dataset highlights several critical factors influencing customer satisfaction.
+
+We observed strong correlations between sentiment and CSAT scores, confirming that positive experiences align with higher satisfaction. This indicates that improving sentiment should be a priority for increasing overall customer satisfaction.
+
+In addition, response times play a significant role in customer perceptions. Delays in response lead to lower satisfaction and more negative sentiments, reinforcing the importance of meeting SLAs and responding promptly.
+
+The findings suggest that the following actions should be prioritized:
+- Reducing call durations, particularly for escalations.
+- Improving the efficiency of channels like the Call-Centre and Chatbot.
+- Ensuring SLA compliance to maintain timely responses and better satisfaction.
+
+By focusing on these key areas, call centres can enhance customer satisfaction, improve operational efficiency, and foster positive customer relationships.
+
+
+
+
 
 
 
