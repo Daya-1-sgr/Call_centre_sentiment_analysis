@@ -1,6 +1,6 @@
 # Call Centre Customer Service Analysis
 
-##Introduction
+## Introduction
 
 Customer service quality can make or break a company’s reputation. Call-centres are often at the frontline of customer interactions, making them a crucial component of customer satisfaction strategies.
 
@@ -49,4 +49,39 @@ The EDA will include:
 - **Distribution Analysis**: Understanding the distribution of key numerical variables.
 - **Sentiment Analysis**: Breakdown of sentiments and their relationship with other variables.
 - **Channel and Response Time Analysis**: Analysing how different channels and response times impact the CSAT scores and sentiments.
+
+## Summary Statistics
+
+### Numerical Summary Statistics
+
+| Column                | Count | Mean  | Std   | Min | Max |
+|-----------------------|-------|-------|-------|-----|-----|
+| CSAT Score            | 70    | 5.32  | 2.38  | 1   | 10  |
+| Call Duration (Minutes)| 70    | 26.25 | 12.57 | 6   | 45  |
+
+#### Numerical Summary Statistics
+
+- There is a wide range of customer satisfaction scores, with a mean score of approximately 5. This indicates that the distribution might be somewhat balanced but leans slightly towards the lower end.
+- The call durations also have a wide range, suggesting that a significant number of calls are longer in duration.
+
+### Categorical Summary Statistics
+
+| Column          | Unique | Top              | Frequency |
+|-----------------|--------|------------------|-----------|
+| ID              | 70     | PIS-39858047      | 1         |
+| Customer Name   | 70     | Frances Gullefant | 1         |
+| Sentiment       | 5      | Negative         | 29        |
+| Reason          | 3      | Billing Question | 50        |
+| City            | 57     | Minneapolis      | 3         |
+| State           | 29     | Texas            | 9         |
+| Channel         | 4      | Call-Centre      | 23        |
+| Response Time   | 3      | Within SLA       | 53        |
+| Call Centre     | 4      | Los Angeles/CA   | 30        |
+
+#### Categorical Summary Statistics
+
+- There are 5 unique sentiments, with "Negative" being the most common, occurring 29 times. This suggests a potential area of concern for the call centre.
+- The most frequent reason for calls is "Billing Question" (50 out of 70 entries), indicating that billing issues are a primary driver for customer inquiries.
+- The most common channel is "Call-Centre" (23 occur
+
 
