@@ -80,8 +80,13 @@ The EDA will include:
 
 #### Categorical Summary Statistics
 
+
 - There are 5 unique sentiments, with "Negative" being the most common, occurring 29 times. This suggests a potential area of concern for the call centre.
 - The most frequent reason for calls is "Billing Question" (50 out of 70 entries), indicating that billing issues are a primary driver for customer inquiries.
-- The most common channel is "Call-Centre" (23 occur
+- The most common channel is "Call-Centre" (23 occurrences), followed by "Chatbot".
+- Most of the calls fall "Within SLA" (53 out of 70), with fewer calls being "Below SLA" or categorized as "Escalated".
+- The "Los Angeles/CA" call centre handled the most interactions (30 out of 70), indicating it is a major hub.
+
+
 
 
