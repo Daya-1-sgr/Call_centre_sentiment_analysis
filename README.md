@@ -87,6 +87,43 @@ The EDA will include:
 - Most of the calls fall "Within SLA" (53 out of 70), with fewer calls being "Below SLA" or categorized as "Escalated".
 - The "Los Angeles/CA" call centre handled the most interactions (30 out of 70), indicating it is a major hub.
 
+## Distribution Analysis
+
+
+![Distribution of CSAT Scores](images/csat_distribution.png)
+
+## CSAT Score Distribution
+
+The histogram reveals that the CSAT scores are somewhat evenly distributed but with a slight skew towards lower scores.
+
+
+The boxplot shows that there are no outliers, and the middle 50% of the data (interquartile range) is spread across a wide range, indicating diverse customer satisfaction levels.
+
+
+---
+
+## Call Duration Distribution
+
+The histogram indicates that most calls are concentrated in the 20–40-minute range, with fewer calls being significantly shorter or longer.
+
+
+The boxplot shows that there are a few calls on the longer end that might be considered outliers, but they are not extreme.
+
+
+
+---
+
+## Sentiment Analysis
+
+### Sentiment Distribution
+
+The bar plot shows that “Negative” sentiment is the most frequent, followed by “Positive” and “Neutral”.
+
+“Very Negative” and “Very Positive” sentiments are the least common.
+
+![Sentiment Distribution Bar Plot](images/sentiment_distribution.png)
+
+
 
 
 
